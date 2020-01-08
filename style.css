@@ -16,7 +16,8 @@
     height: 80%;
     min-width: 300px;
     min-height: 400px;
-    background-color: var(--light-grey);
+    background:linear-gradient(to top right ,#4730dd,#1951ec3b);
+    /*background-color: var(--light-grey);*/
     margin: auto;
     margin-top: 80px;
     border: 2px solid var(--light-grey);
@@ -27,7 +28,6 @@
 #calculator h1 {
     background-color: black;
     color: white;
-    text-transform: uppercase;
     text-align: center;
     padding: 10px;
 }
@@ -71,21 +71,24 @@
     align-items: center;
     justify-content: center;
     border: var(--border-width) solid var(--light-grey);
-    background-color: white;
+    background-color: rgb(223, 13, 48);
     font-size: 1.8rem;
-    cursor: pointer;
-    transition-duration: 1s;
+    cursor:pointer;
+    transition-duration: 1.5s;
 }
 
 .button:hover {
-    background-color: var(--orange);
+    background-color:whitesmoke;
 }
 
-.red {
-    background-color: var(--red);
+.black {
+    background-color:black;
     color: white;
 }
 
-#button-zero {
+#button-ac{
     width: 50%;
+    background-color: red;
+    color:white;
 }
+
